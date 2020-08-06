@@ -1,5 +1,7 @@
  dl {
     border: 3px double #ccc;
+    margin: 0.25%;
+    padding: 0.25%;
     
   }
   dt {
@@ -18,6 +20,8 @@
   }
   dt::after {
     content: "  :  ";
+    margin: 0.25%;
+    padding: 0.25%;
 
   }
 
