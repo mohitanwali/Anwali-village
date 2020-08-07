@@ -1,13 +1,24 @@
-table,th, td {
-  padding: 15px;
-  text-align: left;
-  table-layout: auto;
-  width:50%;
-  height: 50%;
+<style>
+#candidates {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  border: 1px solid black
+  width: 100%;
 }
-td{
-	color: green;
-	font-weight: bold;
+
+#candidates td, #candidates th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
+
+#candidates tr:nth-child(even){background-color: #f2f2f2;}
+
+#candidates tr:hover {background-color: #ddd;}
+
+#candidates th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
